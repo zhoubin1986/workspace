@@ -1,6 +1,9 @@
 ##ignore this file##
 /target/
+/.metadata/
+/.recommenders/
 
+.gitignore
 .classpath
 .project
 .settings     
