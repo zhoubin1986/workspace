@@ -7,7 +7,6 @@ public class StaticDemo6 {
 	}
 }
 
-
 class Farther {
 	public static void m() {
 		System.out.println("Farther->m");
