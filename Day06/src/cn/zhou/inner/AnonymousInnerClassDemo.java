@@ -1,0 +1,32 @@
+package cn.zhou.inner;
+
+public class AnonymousInnerClassDemo {
+	Calc c = new Calc() { // 利用匿名内部类创建对象
+		@Override
+		public double sum(double i, double j) {
+			return i + j;
+		}
+	};
+
+	A a = new A() {
+	};
+	B b = new B() { //实际上匿名内部类是B的一个子类，可以用static检验
+	};
+}
+
+interface Calc {
+	double sum(double i, double j);
+}
+
+// class Calc_imp implements Calc {
+// @Override
+// public double sum(double i, double j) {
+// return 0;
+// }
+// }
+
+interface A {
+}
+
+class B {   //加static 判断
+}
