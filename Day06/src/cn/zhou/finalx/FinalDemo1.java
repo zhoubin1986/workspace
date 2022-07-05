@@ -11,15 +11,14 @@ class Demo1 {
 	public final void m() {
 		System.out.println("A");
 	}
-	
+
 	public final void m(int i) {
 		System.out.println("C");
 	}
-} 
+}
 
 class Demo2 extends Demo1 {
-	public final void m(int i,String name) {  //不能够被重写,可以被继承
+	public final void m(int i, String name) { // 不能够被重写,可以被继承
 		System.out.println("B");
 	}
 }
-
