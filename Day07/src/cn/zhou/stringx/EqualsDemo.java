@@ -12,6 +12,7 @@ public class EqualsDemo {
 
 		StringBuffer e = new StringBuffer("qqq");
 		
+		
 		char[] in1 = {'q','a'};
 		char[] in2 = {'q','a'};
 		System.out.println(in1.equals(in2));
