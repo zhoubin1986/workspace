@@ -22,11 +22,21 @@ public class StringInternDemo {
 		System.out.println(str3);
 		System.out.println(str3.trim());
 		
-		//字符串拼接
+		//字符串拼接比较特殊的是字符数组，打印的是拼接后的字符串
 		char[] ch = {'1','a','3'};
+		int[] in = {'3','4','5'};
 		String str4 = new String(ch);
+//		String str5 = new String(ch,1,2);
+		String str5 = String.valueOf(ch);
 		System.out.println(ch);
+		System.out.println(str5);
+		System.out.println(in);
 		
-		
+		//判断一个字符串是否有一个字母组成
+		String str6 = "111";
+		System.out.println(str6.matches("[a-zA-Z]"));
+		//判断一个字符串是否由非字母组成
+//		System.out.println(!str6.matches("[a-zA-Z]"));
+		System.out.println(str6.matches("[^a-zA-Z]"));
 	}
 }
