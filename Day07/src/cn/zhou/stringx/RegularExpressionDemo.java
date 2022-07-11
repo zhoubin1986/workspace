@@ -32,7 +32,7 @@ public class RegularExpressionDemo {
 //		System.out.println(str.matches("[A-Za-z][0-9]."));
 //		System.out.println(str.matches(".")); //.表示任意一个字符
 //		System.out.println(str.matches("\\.")); //java提供的转义*.文件
-		System.out.println(str1.matches("\\")); //java提供的转义*.文件
+		System.out.println(str1.matches("\\\\"));//java提供的转义*.文件
 		
 	}
 }
