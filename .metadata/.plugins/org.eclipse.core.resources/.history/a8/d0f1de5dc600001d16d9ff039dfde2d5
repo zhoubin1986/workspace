@@ -1,6 +1,5 @@
 package cn.zhou.stringx;
 
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,16 +23,10 @@ public class RegularExpressionDemo {
 //		Matcher m = p.matcher(str);
 //		System.out.println(m.matches());
 		
-		//简洁写法，注意字符个数
-		String str = ".a.txt";
-		Scanner sc = new Scanner(System.in);
-		String str1 = sc.next();
+		//简洁写法
+		String str = "ya";
 //		System.out.println(str.matches("[a-z][A-Z][0-9]")); // 切记：只能从小到大顺序
-//		System.out.println(str.matches("[A-Za-z][0-9]."));
-//		System.out.println(str.matches(".")); //.表示任意一个字符
-//		System.out.println(str.matches("\\.")); //java提供的转义*.文件
-		System.out.println(str1.matches("\\")); //java提供的转义*.文件
-		
+		System.out.println(str.matches("[A-Za-z]."));
 	}
 }
 
