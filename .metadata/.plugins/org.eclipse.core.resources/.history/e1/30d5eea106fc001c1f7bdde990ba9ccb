@@ -1,0 +1,21 @@
+package cn.zhou.inner;
+
+public class AnonymousInnerClassDemo {
+	Calc c = new Calc(){
+		@Override
+		public double sum(double i, double j) {
+			return i + j;
+		}
+	};
+}
+
+interface Calc {
+	double sum(double i, double j);
+}
+
+//class Calc_imp implements Calc {
+//	@Override
+//	public double sum(double i, double j) {
+//		return 0;
+//	}
+//}

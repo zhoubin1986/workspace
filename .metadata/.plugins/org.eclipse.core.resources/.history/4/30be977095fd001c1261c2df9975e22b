@@ -1,0 +1,8 @@
+package cn.zhou.stringx;
+
+public class StringHashDemo {
+	public static void main(String[] args) {
+		String str = "aa";
+		System.out.println(str.hashCode());
+	}
+}

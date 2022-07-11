@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.nio.channels.OverlappingFileLockException"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="Inner1"/>
+<fullyQualifiedTypeName name="cn.zhou.interfacex.Outer2.Inner2"/>
+<fullyQualifiedTypeName name="cn.zhou.interfacex.Outer_2.Inner_2"/>
+<fullyQualifiedTypeName name="cn.zhou.inner.Outer_1.Inner"/>
+<fullyQualifiedTypeName name="cn.zhou.inner.A"/>
+<fullyQualifiedTypeName name="cn.zhou.lambdax.Factory"/>
+<fullyQualifiedTypeName name="java.sql.Savepoint"/>
+<fullyQualifiedTypeName name="cn.zhou.packagex.PackageDemo"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="cn.zhou.stringx.EqualsDemo"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

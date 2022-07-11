@@ -1,0 +1,15 @@
+package cn.zhou.stringx;
+
+import java.util.Scanner;
+
+public class StringDemo {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		String str = s.next();
+		int n = s.nextInt();
+		byte[] bt = str.getBytes();
+		for(byte i:bt) {
+			System.out.println(i);
+		}
+	}
+}

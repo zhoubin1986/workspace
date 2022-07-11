@@ -1,0 +1,36 @@
+package cn.zhou.interfacex;
+
+import java.io.Serializable;
+
+public class InterfaceDemo {
+
+}
+
+interface Pet extends Serializable {
+	int age = 0;
+	
+	void eat();
+	void sleep();
+}
+
+class Cat implements Pet,Cloneable {
+	@Override
+	public void eat() {
+		
+	}  //实体方法
+
+	@Override
+	public void sleep() {
+		
+	}
+	
+}
+
+interface A {
+	void m();  //可以省略public abstract 修饰符
+}
+
+class B implements A {
+//	void m(){}  //减小了权限修饰符范围为默认，重写大于等于
+	public void m() {}
+}

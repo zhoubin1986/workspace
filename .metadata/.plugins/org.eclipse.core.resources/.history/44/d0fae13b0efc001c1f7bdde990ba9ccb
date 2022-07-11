@@ -1,0 +1,12 @@
+package cn.zhou.lambdax;
+
+public class LambdaDemo {
+	public static void main(String[] args) {
+		Calc c = (x,y) -> x + y; 
+		System.out.println(c.sum(1, 2));
+	}
+}
+
+interface Calc {
+	double sum(double x,double y);
+}

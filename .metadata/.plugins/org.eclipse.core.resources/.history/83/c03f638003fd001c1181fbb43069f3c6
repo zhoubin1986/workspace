@@ -1,0 +1,25 @@
+package cn.zhou.stringx;
+
+import java.io.UnsupportedEncodingException;
+import java.util.Scanner;
+
+public class StringDemo {
+	public static void main(String[] args) throws Exception {
+		Scanner s = new Scanner(System.in);
+		String str = s.next();
+		int n = s.nextInt();
+		byte[] ba = str.getBytes("GBK");
+		if(n < 0 || n > ba.length) {
+			return ;
+		}
+		
+		String sub_ba = new String(ba,0,n,"GBK"); //有可能最后一个字符是半个汉字情况
+		
+		
+		
+		
+		for(byte i:ba) {
+			System.out.println(i);
+		}
+	}
+}

@@ -1,0 +1,11 @@
+package cn.zhou.interfacex;
+
+public class InnerClassDemo1 {
+
+}
+
+class Outer2 {
+	public class Inner2 {
+		
+	}
+}

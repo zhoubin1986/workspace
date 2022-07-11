@@ -1,0 +1,21 @@
+package cn.zhou.interfacex;
+
+public class InnerClassDemo1 {
+
+}
+
+class Outer2 {
+	int m = 3;
+	class Inner2 extends Object implements Cloneable {
+		int i = 0;
+		static final int j = 1;
+		
+		public void m() {
+			System.out.println(m);
+		}
+	}
+	
+	public void mm() {
+		Inner2 in2 = new Inner2();
+	}
+}

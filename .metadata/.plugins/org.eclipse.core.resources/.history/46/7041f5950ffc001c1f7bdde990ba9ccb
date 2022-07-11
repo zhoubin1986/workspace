@@ -1,0 +1,21 @@
+package cn.zhou.lambdax;
+
+public class LambdaDemo {
+	public static void main(String[] args) {
+//		Calc c = (x,y) -> x + y; 
+//		System.out.println(c.sum(1,2));
+//		Calc1 c1 = (d) -> Math.sqrt(d); //只有一个参数可以省略括号，
+										//方法体只有一句，调用了已有类中的某个静态方法
+										//静态方法直接操作参数
+		Calc1 c1 = Math::sqrt;
+		System.out.println(c1.sqrt(12));
+	}
+}
+
+interface Calc {
+	double sum(double x,double y);
+}
+
+interface Calc1 {
+	double sqrt(double d);
+}

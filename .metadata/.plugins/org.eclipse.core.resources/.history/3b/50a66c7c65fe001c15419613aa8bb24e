@@ -1,0 +1,10 @@
+package cn.zhou.stringx;
+
+public class RegularExpressionDemo {
+	public static void main(String[] args) {
+		String str = "abc";
+		System.out.println(str.equals("abc"));
+	}
+}
+
+

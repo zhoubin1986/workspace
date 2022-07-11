@@ -1,0 +1,9 @@
+package cn.zhou.stringx;
+
+public class EqualsDemo {
+	public static void main(String[] args) {
+		String str1 = "abcdefg";
+		String str2 = "abcdefg";
+		System.out.println(str1.equals(str2));
+	}
+}

@@ -1,0 +1,11 @@
+package cn.zhou.stringx;
+
+public class StringHashDemo {
+	public static void main(String[] args) {
+		String str = "eabcd";  //字符串的hash码是固定的
+		System.out.println(str.hashCode());
+		int index = str.indexOf('b', 1);
+//		int index = str.indexOf("bc");
+		System.out.println(index);
+	}
+}

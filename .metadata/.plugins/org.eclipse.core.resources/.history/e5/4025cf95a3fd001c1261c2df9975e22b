@@ -1,0 +1,10 @@
+package cn.zhou.stringx;
+
+public class StringInternDemo {
+	public static void main(String[] args) {
+		//定义字符串形式
+		String str1 = "abc"; //指向常量池
+		String str2 = new String("abc"); //指向堆区再指向常量池
+		System.out.println(str1 == str2);
+	}
+}

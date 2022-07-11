@@ -1,0 +1,9 @@
+package cn.zhou.lambdax;
+
+public class LambdaDemo {
+	Calc c = (double x,double y) -> x + y;
+}
+
+interface Calc {
+	double sum(double x,double y);
+}
