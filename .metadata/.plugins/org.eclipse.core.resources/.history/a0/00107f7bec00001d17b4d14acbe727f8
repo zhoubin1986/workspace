@@ -1,0 +1,11 @@
+package cn.zhou.stringx;
+
+public class RegExDemo {
+	public static void main(String[] args) {
+		String str = "\r";
+		//字符串是否由字母组成
+//		System.out.println(str.matches("[a-zA-Z]+"));
+//		System.out.println(str.matches("\\w+"));
+		System.out.println(str.matches(".*"));
+	}
+}
