@@ -1,0 +1,9 @@
+package cn.zhou.stringx;
+
+public class RegExDemo2 {
+	public static void main(String[] args) {
+		String str = "abcd";
+		//由5个字母组成
+		System.out.println(str.matches("[a-zA-Z]{4}"));
+	}
+}
