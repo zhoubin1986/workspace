@@ -1,0 +1,12 @@
+package cn.zhou.stringx;
+
+public class StringDemo4 {
+	public static void main(String[] args) {
+		char[] ch = {'a','b','c','c'};
+		//Æ´½Ó³É×Ö·û´®
+//		String str = new String(ch);
+//		System.out.println(str);
+		String str	= new String(ch, 1, 3);
+		System.out.println(str);
+	}
+}
