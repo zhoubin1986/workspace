@@ -15,6 +15,8 @@ public class StringDemo4 {
 		String str = sc.next();
 		int from = sc.nextInt();
 		int to = sc.nextInt();
+		String str2 = str.substring(from, to);  //Ωÿ»°∑∂Œß£∫begin<=x<end(≤ª∞¸∫¨)
+		System.out.println(str2);
 		if(from < 0 || to > str.length() || from > to) {
 			return;
 		}
