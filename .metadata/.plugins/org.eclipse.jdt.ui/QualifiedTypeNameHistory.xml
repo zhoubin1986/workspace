@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
-<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
 <fullyQualifiedTypeName name="cn.zhou.stringx.EqualsDemo"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -24,5 +23,6 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="cn.zhou.stringx.StringDemo4"/>
 <fullyQualifiedTypeName name="cn.zhou.stringx.StringDemo5"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
