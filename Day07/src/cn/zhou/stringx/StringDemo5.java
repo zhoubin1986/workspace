@@ -1,6 +1,7 @@
 package cn.zhou.stringx;
 
 import java.io.UnsupportedEncodingException;
+import java.util.regex.Pattern;
 
 public class StringDemo5 {
 	public static void main(String[] args) throws Exception {

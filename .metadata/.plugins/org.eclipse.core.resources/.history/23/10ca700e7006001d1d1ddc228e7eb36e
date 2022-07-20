@@ -1,0 +1,10 @@
+package cn.zhou.stringx;
+
+public class StringDemo6 {
+	public static void main(String[] args) {
+		//ÅÐ¶Ï×Ö·û´®ÖÐÊÇ·ñÓÐÊý×Ö£¿
+		String str = "4ar";
+		boolean bl = str.matches("\\d.*");
+		System.out.println(bl);
+	}
+}
