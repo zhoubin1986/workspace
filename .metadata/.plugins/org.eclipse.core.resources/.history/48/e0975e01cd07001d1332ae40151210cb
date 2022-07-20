@@ -29,7 +29,7 @@ public class StringPSW {
 		if(psw.matches(".* .*")) 
 			n++;
 		return n>=2;
-		//针对这种情况4种中的2种，单一字符，5种中的3种就不行
+		//针对这种情况4中的2种，单一字符
 		//!psw.matches("[a-z+]{8,12}");
 		
 	}

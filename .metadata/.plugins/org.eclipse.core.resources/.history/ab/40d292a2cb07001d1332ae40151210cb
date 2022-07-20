@@ -26,11 +26,11 @@ public class StringPSW {
 		if(psw.matches(".*[0-9].*"))
 			n++;
 		//判断是否含有空格
-		if(psw.matches(".* .*")) 
+		if(psw.matches(".* .*")) {
 			n++;
+			System.out.println("aaa");
+		}
 		return n>=2;
-		//针对这种情况4种中的2种，单一字符，5种中的3种就不行
-		//!psw.matches("[a-z+]{8,12}");
 		
 	}
 }
