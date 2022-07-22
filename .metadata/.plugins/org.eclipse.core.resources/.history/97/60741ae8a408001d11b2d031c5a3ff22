@@ -2,7 +2,7 @@ package cn.zhou.stringx;
 
 public class StringDemo7 {
 	public static void main(String[] args) {
-		String str = "aa";
+		String str = "aaaa";
 		//判断字符串中是否含有"ab"
 		str.contains("ab");
 		str.matches(".*ab.*");
@@ -18,7 +18,7 @@ public class StringDemo7 {
 		//(.){2,}     表示至少有两个字符,这种也不行(.)\\1{2,}
 		//(.)\\1+        匹配叠字
 		System.out.println(str.matches("(.){2,}"));
-		System.out.println(str.matches("(.)\\1{1,}")); //可以
+		System.out.println(str.matches("(.)\\1{2,}"));
 		System.out.println(str.matches("(.)\\1+"));
 	}
 }

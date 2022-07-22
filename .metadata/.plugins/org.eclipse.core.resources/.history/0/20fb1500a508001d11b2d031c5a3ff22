@@ -18,7 +18,7 @@ public class StringDemo7 {
 		//(.){2,}     表示至少有两个字符,这种也不行(.)\\1{2,}
 		//(.)\\1+        匹配叠字
 		System.out.println(str.matches("(.){2,}"));
-		System.out.println(str.matches("(.)\\1{1,}")); //可以
+		System.out.println(str.matches("(.)\\1{2,}"));
 		System.out.println(str.matches("(.)\\1+"));
 	}
 }
