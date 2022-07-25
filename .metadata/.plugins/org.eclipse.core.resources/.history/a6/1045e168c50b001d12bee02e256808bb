@@ -1,0 +1,12 @@
+package cn.zhou.stringx;
+
+public class RegExReplace {
+	public static void main(String[] args) {
+		String str = "abcdefghij345";
+		//将字符串中的数字替换为-
+		System.out.println(str.replace("ab", "++"));
+		System.out.println(str.replaceAll("\\d", "-"));
+		//将字符串中的所有数字去掉
+		System.out.println(str.replaceAll("\\d", ""));
+	}
+}

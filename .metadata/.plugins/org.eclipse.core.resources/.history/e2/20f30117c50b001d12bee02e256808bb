@@ -1,0 +1,9 @@
+package cn.zhou.stringx;
+
+public class RegExReplace {
+	public static void main(String[] args) {
+		String str = "abcdefghij";
+		//将字符串中的数字替换为-
+		System.out.println(str.replace("ab", "++"));
+	}
+}
