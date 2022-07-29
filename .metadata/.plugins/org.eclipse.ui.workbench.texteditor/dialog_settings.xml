@@ -6,12 +6,14 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="char[] triggers= t.getTriggerCharacters();" key="selection"/>
+		<item value="valueOf" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="valueOf"/>
+			<item value="value"/>
 			<item value="char[] triggers= t.getTriggerCharacters();"/>
 		</list>
 		<list key="replacehistory">
@@ -21,7 +23,7 @@
 		<item value="275" key="DIALOG_WIDTH"/>
 		<item value="1|宋体|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|宋体" key="DIALOG_FONT_NAME"/>
 		<item value="350" key="DIALOG_HEIGHT"/>
-		<item value="477" key="DIALOG_X_ORIGIN"/>
-		<item value="129" key="DIALOG_Y_ORIGIN"/>
+		<item value="703" key="DIALOG_X_ORIGIN"/>
+		<item value="240" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
