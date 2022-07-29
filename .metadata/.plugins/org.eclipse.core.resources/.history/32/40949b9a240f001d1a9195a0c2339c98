@@ -39,10 +39,6 @@ public class IntegerDemo {
 		 * Integer in = new Integer(100);;
 		 * int i =in.intValue();
 		 * i = in;
-		 * 
-		 * Boolean bo = new Boolean(true);
-		 * boolean bl = bo.booleanValue();
-		 * bl = bo;
 		 */
 	}
 }
