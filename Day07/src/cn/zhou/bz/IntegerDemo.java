@@ -44,5 +44,12 @@ public class IntegerDemo {
 		 * boolean bl = bo.booleanValue();
 		 * bl = bo;
 		 */
+		/**
+		 * int i = 10;
+		 * Integer in = new Integer(10);
+		 * 如果包装类型和基本类型计算时，包装类型会自动拆箱，包装类和包装类比较是比较的地址
+		 * 
+		 * System.out.println(i == in); 等价于10 == 10 -->true
+		 */
 	}
 }

@@ -1,0 +1,10 @@
+package cn.zhou.mathx;
+
+public class MathDemo {
+	public static void main(String[] args) {
+		System.out.println(Math.E);//E-->自然底数，无限不循环的小数
+		System.out.println(Math.abs(-10));
+		System.out.println(Math.cbrt(-27));
+		System.out.println(Math.ceil(5.2)); //向上取整
+	}
+}

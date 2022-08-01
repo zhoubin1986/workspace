@@ -1,0 +1,10 @@
+package cn.zhou.bz;
+
+public class IntegerDemo1 {
+	public static void main(String[] args) {
+		Integer in = new Integer("0x256");
+		System.out.println(in); //NumberFormatException±¨´í
+		int i = Integer.parseInt("-128");
+		System.out.println(i);
+	}
+}
