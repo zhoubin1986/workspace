@@ -47,6 +47,6 @@ public class MathDemo2 {
 			result[i] %= 10;
 			result[i + 1] += temp / 10;
 		}
-//		System.out.println(Arrays.toString(result));
+		System.out.println(Arrays.toString(result));
 	}
 }

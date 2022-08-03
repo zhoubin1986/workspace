@@ -21,8 +21,8 @@ public class MathDemo2 {
 		for(int i=0,j = ch1.length - 1;i<ch1.length;i++,j--) {
 			in1[j] = ch1[i] - '0'; //×¢Òâ´ÎÐò
 		}
-		for(int i=0,j = ch2.length - 1;i<ch1.length;i++,j--) {
-			in2[j] = ch2[i] - '0';
+		for(int i=0;i<ch1.length;i++) {
+			in2[i] = ch2[i] - '0';
 		}
 		/*int[] result = new int[in1.length + in2.length];
 		for (int i = 0; i < in1.length; i++) {
@@ -45,8 +45,8 @@ public class MathDemo2 {
 		for (int i = 0; i < result.length - 1; i++) {
 			int temp = result[i];
 			result[i] %= 10;
-			result[i + 1] += temp / 10;
+			result[i + 1] += (temp / 10);
 		}
-//		System.out.println(Arrays.toString(result));
+		System.out.println(Arrays.toString(result));
 	}
 }
