@@ -33,7 +33,7 @@ public class MathDemo2 {
 		int[] result = new int[in1.length + in2.length];
 		for (int i = 0; i < in1.length; i++) {
 			for (int j = 0; j < in2.length; j++) {
-				result[i + j] += in2[i] * in1[j];//123*12ªÚ12*123-->ª·“Ï≥£ArrayIndexOutOfBoundsException
+				result[i + j] += in2[i] * in1[j];
 			}
 		}
 		/*
@@ -48,7 +48,9 @@ public class MathDemo2 {
 
 //		System.out.println(Arrays.toString(result));
 		ReverseWithStringChatAt reverseWithStringBuilder = new ReverseWithStringChatAt();
-		reverseWithStringBuilder.reverseWithStringChatAt(Arrays.toString(result));
+//		reverseWithStringBuilder.reverseWithStringChatAt("abc");
+		System.out.println(reverseWithStringBuilder.reverseWithStringChatAt("abc"));
+		
 	}
 }
 
@@ -63,7 +65,7 @@ class ReverseWithStringChatAt {
 	}
 
 	private void display(String input, String output) {
-//		System.out.println(" input string :: " + input);
+		System.out.println(" input string :: " + input);
 		System.out.println(" output string :: " + output);
 	}
 }

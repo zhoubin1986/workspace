@@ -1,7 +1,0 @@
-package cn.zhou.mathx;
-
-public class MathDemo2 {
-	public static void main(String[] args) {
-		
-	}
-}
