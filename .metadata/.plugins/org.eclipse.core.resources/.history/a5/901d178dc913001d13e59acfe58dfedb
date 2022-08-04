@@ -33,7 +33,8 @@ public class MathDemo2 {
 		int[] result = new int[in1.length + in2.length];
 		for (int i = 0; i < in1.length; i++) {
 			for (int j = 0; j < in2.length; j++) {
-				result[i + j] += in2[j] * in1[i];//123*12或12*123-->会异常ArrayIndexOutOfBoundsException
+				int n = in2[j] * in1[i];
+				result[i + j] += n;//123*12或12*123-->会异常ArrayIndexOutOfBoundsException
 			}
 		}
 		/*
