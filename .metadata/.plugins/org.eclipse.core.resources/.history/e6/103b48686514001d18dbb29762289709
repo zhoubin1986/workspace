@@ -1,0 +1,12 @@
+package cn.zhou.datedemo;
+
+import java.util.Date; //不要导错了
+
+public class DateDemo {
+	public static void main(String[] args) {
+		Date date = new Date();
+		//Fri Aug 05 10:05:38 CST 2022
+		//CST-->China Standard Timezone,不指定时区则为当前系统时间
+		System.out.println(date);
+	}
+}

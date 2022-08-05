@@ -1,9 +1,0 @@
-package cn.zhou.bz;
-
-public class IntegerDemo {
-	public static void main(String[] args) {
-		int i = 1;
-		Integer in = new Integer(i); //底层肯定调用了toString方法
-		System.out.println(in);
-	}
-}
