@@ -1,9 +1,0 @@
-package cn.zhou.mathx;
-
-public class MathDemo1 {
-	public static void main(String[] args) {
-		double d1 = 3.14;
-		double d2 = 2.14;
-		System.out.println(d1 - d2);
-	}
-}
