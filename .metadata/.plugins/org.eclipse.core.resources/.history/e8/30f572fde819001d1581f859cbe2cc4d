@@ -1,0 +1,25 @@
+package cn.zhou.throwablex;
+
+public class ExceptionDemo {
+	public static void main(String[] args) {
+		//去读取一个文件，模拟异常处理，要么向上抛出，要么捕获
+		try {
+			String msg = readTextFile("D:\\a.txt");
+			System.out.println(msg);
+		} catch (PathNotExistException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static String readTextFile(String path) throws PathNotExistException {
+		if(path.startsWith("D:\\")) {
+			throw new PathNotExistException();
+		}
+		return "读取成功~";
+	}
+}
+
+class PathNotExistException extends Exception{
+	
+}
