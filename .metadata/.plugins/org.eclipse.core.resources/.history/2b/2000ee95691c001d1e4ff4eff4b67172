@@ -23,7 +23,7 @@ public class ExceptionDemo {
 			String msg = readTextFile("e:\\a.bmp");
 			System.out.println(msg);// 如果抛出了异常对象，后续代码不在执行，所有后面不打印
 		} catch (PathNotExistException | FormatErrorException e) {
-			System.out.println(e.getMessage());  //分组处理异常
+			System.out.println(e.getMessage());
 //				System.out.println("捕获到了一个异常：文件路径 不存在~");
 		} 
 	}
