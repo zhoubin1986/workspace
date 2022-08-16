@@ -1,0 +1,7 @@
+package cn.zhou.throwablex;
+
+public class ExceptionDemo2 {
+	public void m() throw IOException{
+		System.out.println("m()");
+	}
+}

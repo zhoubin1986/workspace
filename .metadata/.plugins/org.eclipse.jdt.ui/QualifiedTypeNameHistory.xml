@@ -37,4 +37,8 @@
 <fullyQualifiedTypeName name="cn.zhou.throwablex.PathNotExistException"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 </qualifiedTypeNameHistroy>
