@@ -1,0 +1,35 @@
+package cn.zhou.collectionex;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionDemo {
+	public static void main(String[] args) {
+		Collection<String> c = new ArrayList<String>();
+		//添加数据
+		c.add("h");
+		c.add("e");
+		c.add("l");
+		c.add("l");
+		c.add("o");
+		//移出数据
+		c.remove("h");
+		System.out.println(c.contains("a"));
+		System.out.println(c);
+		//把集合转化为数组
+		//Object[] o = c.toArray();
+//		String[] arr = (String[])c.toArray(); //不能这样转换
+		//得告诉当前集合要转化的是一个String[]
+		String[] str = c.toArray(new String[0]);//给0和其他值效果是一样的，执行情况不一样，给0的话不用找空间，只需要告诉当前集合传入的是String[]类型
+//		Integer[] str = c.toArray(new Integer[0]);
+		
+//		for(Object o:arr) {
+////			System.out.println(((String)o).charAt(0));
+//			System.out.println();
+//		}
+		for(String s:str) {
+			System.out.print(s);
+			System.out.println(str);
+		}
+	}
+}

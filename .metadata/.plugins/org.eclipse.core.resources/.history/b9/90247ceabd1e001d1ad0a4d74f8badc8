@@ -1,0 +1,20 @@
+package cn.zhou.collectionex;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionDemo {
+	public static void main(String[] args) {
+		Collection<String> c = new ArrayList<String>();
+		//添加数据
+		c.add("h");
+		c.add("e");
+		c.add("l");
+		c.add("l");
+		c.add("o");
+		//移出数据
+		c.remove("h");
+		System.out.println(c.contains("a"));
+		System.out.println(c);
+	}
+}
