@@ -1,0 +1,14 @@
+package at.zhou.collectionx;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListDemo1 {
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<String>();
+		list.add("aioer");
+		list.add("edfr");
+		list.add("oer");
+		list.add("orr");
+	}
+}
