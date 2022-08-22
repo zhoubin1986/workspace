@@ -1,13 +1,12 @@
 package at.zhou.collectionx;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
 public class ListDemo1 {
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<String>();//引用类型中的字符串类型
+		List<String> list = new ArrayList<String>();
 		list.add("aioer");
 		list.add("edf");
 		list.add("oer");
@@ -23,16 +22,5 @@ public class ListDemo1 {
 			}
 		});
 		System.out.println(list);
-		
-		//扩容过程
-		/*private void grow(int minCapacity) {
-	        int oldCapacity = elementData.length;
-	        int newCapacity = oldCapacity + (oldCapacity >> 1);
-	        if (newCapacity - minCapacity < 0)
-	            newCapacity = minCapacity;
-	        if (newCapacity - MAX_ARRAY_SIZE > 0)
-	            newCapacity = hugeCapacity(minCapacity);
-	        elementData = Arrays.copyOf(elementData, newCapacity);
-	    }*/
 	}
 }
