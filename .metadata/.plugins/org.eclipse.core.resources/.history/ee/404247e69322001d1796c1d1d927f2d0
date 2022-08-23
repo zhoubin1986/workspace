@@ -67,12 +67,9 @@ class ArrList {
 		if(size >= data.length) {
 			grow();
 			//需要将插入位置空出
-			/*for(int i = size -1;i >= index;i--) {
+			for(int i = size -1;i >= index;i--) {
 				data[i + 1] = data[i];
-			}*/
-			
-			//整体复制
-			System.arraycopy(data, index, data, index + 1, size - index);
+			}
 			data[index] = str;
 			size++;//元素个数重新增加了一个
 		}

@@ -31,9 +31,9 @@ class ArrList {
 		//考虑存放的位置，是否放满来扩容
 		if(size >= data.length) {
 			grow();
-			//size 0个元素-->0位置
-			//size 1个元素-->1位置
-			//size 2个元素-->2位置
+			//size 0  0
+			//size 1  1
+			//size 2  2
 			this.data[size++] = str;
 //			size++;
 		}
@@ -54,27 +54,5 @@ class ArrList {
 			this.data = Arrays.copyOf(data, data.length + (data.length) >> 1);
 		}*/
 //		this.data = Arrays.copyOf(data, data.length + (data.length >> 1));//0或者1右移都是0,出问题
-	}
-	
-	//插入元素
-	public void add(int index,String str) {
-		//判断插入的位置是否越界，最后一位可以追加没有问题，但是超过size就出错了
-		if(index > size) {
-//			throw new IndexOutOfBoundsException();
-			throw new IndexOutOfBoundsException("Index:" + index + ",Size:" + size);
-		}
-		//判断是否需要扩容，可能默认是10个元素，你没发插入元素
-		if(size >= data.length) {
-			grow();
-			//需要将插入位置空出
-			/*for(int i = size -1;i >= index;i--) {
-				data[i + 1] = data[i];
-			}*/
-			
-			//整体复制
-			System.arraycopy(data, index, data, index + 1, size - index);
-			data[index] = str;
-			size++;//元素个数重新增加了一个
-		}
 	}
 }
